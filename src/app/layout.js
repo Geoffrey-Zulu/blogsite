@@ -63,6 +63,7 @@ export default function RootLayout({ children }) {
           "font-mr bg-light dark:bg-dark"
         )}
       >
+        {/* Theme switcher script */}
         <Script id="theme-switcher" strategy="beforeInteractive">
           {`if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark')
@@ -70,6 +71,15 @@ export default function RootLayout({ children }) {
     document.documentElement.classList.remove('dark')
   }`}
         </Script>
+
+        {/* Google Ads script */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4301255126698093"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
         <Header />
         {children}
         <Footer />
