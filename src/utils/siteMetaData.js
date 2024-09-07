@@ -1,7 +1,7 @@
 // please update required information
 const siteMetadata = {
     title: 'Blog',
-    author: 'Geofffrey',
+    author: 'Geoffrey',
     headerTitle: 'Punterss',
     description: 'Best blog site on the internet.',
     language: 'en-us',
