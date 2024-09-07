@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "../Icons";
+import { GithubIcon, LinkedinIcon, InstagramIcon, TwitterIcon } from "../Icons";
 import Link from "next/link";
 import siteMetadata from "@/src/utils/siteMetaData";
 
@@ -75,7 +75,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
+          <InstagramIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
       </div>
 
