@@ -15,7 +15,7 @@ const siteMetadata = {
     facebook: 'https://facebook.com/geoffreyzulujr',
     youtube: 'https://youtube.com/geoffreyzulujr',
     linkedin: 'https://www.linkedin.com/in/geoffreyzulujr/',
-    dribbble: 'https://www.dribbble.com/geoffreyzulujr',
+    dribbble: 'https://www.instagram.com/geoffreyzulujr',
     locale: 'en-US',
   }
   
