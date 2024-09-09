@@ -73,16 +73,16 @@ export default function RootLayout({ children }) {
         </Script>
         {/* Google ads recovery start */}
         <Script
-        async
-        src="https://fundingchoicesmessages.google.com/i/pub-4301255126698093?ers=1"
-        nonce="MiJ36dyNkZ_qcWRgZFaiXw"
-      ></Script>
-      <Script
-        id="googlefcPresent"
-        nonce="MiJ36dyNkZ_qcWRgZFaiXw"
-        strategy="afterInteractive"
-      >
-        {`(function() {
+          async
+          src="https://fundingchoicesmessages.google.com/i/pub-4301255126698093?ers=1"
+          nonce="MiJ36dyNkZ_qcWRgZFaiXw"
+        ></Script>
+        <Script
+          id="googlefcPresent"
+          nonce="MiJ36dyNkZ_qcWRgZFaiXw"
+          strategy="afterInteractive"
+        >
+          {`(function() {
             function signalGooglefcPresent() {
               if (!window.frames['googlefcPresent']) {
                 if (document.body) {
@@ -98,8 +98,8 @@ export default function RootLayout({ children }) {
             }
             signalGooglefcPresent();
         })();`}
-      </Script>
-       {/* Google ads recovery end start */}
+        </Script>
+        {/* Google ads recovery end start */}
         {/* Google Ads script */}
         <Script
           async
