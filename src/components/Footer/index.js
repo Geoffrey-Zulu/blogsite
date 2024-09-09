@@ -40,6 +40,13 @@ const Footer = () => {
           className="bg-dark text-light dark:text-dark dark:bg-light cursor-pointer font-medium rounded px-3 sm:px-5 py-1"
         />
       </form>
+
+      <Link href="/policy" className="block mt-5 px-4 text-center w-full sm:w-3/5">
+        <p className="font-light dark:font-medium text-sm sm:text-base text-blue-500">
+          Privacy Policy
+        </p>
+      </Link>
+
       <div className="flex items-center mt-8">
         <a
           href={siteMetadata.linkedin}
@@ -92,7 +99,7 @@ const Footer = () => {
         <div className="text-center">
           Made with &hearts; by{" "}
           <a href="https://www.instagram.com/geoffreyzulujr" className="underline" target="_blank">
-           Geoffrey
+            Geoffrey
           </a>
         </div>
       </div>
